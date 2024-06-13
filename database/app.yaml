@@ -1,0 +1,12 @@
+runtime: python311  # Choose the appropriate Python runtime version
+
+handlers:
+- url: /.*
+  script: auto
+
+env_variables:
+  MYSQL_USER: 'root'  # Replace with your MySQL username
+  MYSQL_PASSWORD: ''  # Replace with your MySQL password
+  MYSQL_HOST: '/cloudsql/weatherbot-426011:instance-20240613-090517'  # Replace with your Cloud SQL instance connection name
+  MYSQL_DATABASE: 'coffee_sector'  # Replace with your MySQL database name
+  unix_socket: '/cloudsql/weatherbot-426011:instance-20240613-090517'  # Cloud SQL socket path

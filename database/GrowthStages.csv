@@ -1,0 +1,7 @@
+GrowthStageID,Stage,Time
+1,Germination,4
+2,Seedling,12
+3,Vegetative Growth,24
+4,Flowering,8
+5,Berry Formation,12
+6,Maturation,12

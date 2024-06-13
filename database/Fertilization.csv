@@ -1,0 +1,3 @@
+FertilizationID,Types,ApplicationMethods,Frequency,SoilRequirementID,Advantages,Disadvantages,Contents
+1,Organic Fertilizer,Manually Spread,Every 3 months,1,Improves soil health and structure,Slower nutrient release,"Nitrogen 2%, Phosphorus 1%, Potassium 1%"
+2,Inorganic Fertilizer,Machine Application,Every 6 months,2,Immediate nutrient availability,Can lead to soil degradation,"Nitrogen 15%, Phosphorus 10%, Potassium 10%"
