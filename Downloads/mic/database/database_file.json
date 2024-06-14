@@ -1,0 +1,224 @@
+{
+  "diseases": [
+    {
+      "Description": "Coffee Wilt Disease",
+      "DiseaseID": 1,
+      "PartAffected": "Roots and stems"
+    },
+    {
+      "Description": "Coffee Leaf Rust",
+      "DiseaseID": 2,
+      "PartAffected": "Leaves"
+    }
+  ],
+  "fertilization": [
+    {
+      "Advantages": "Improves soil health and structure",
+      "ApplicationMethods": "Manually Spread",
+      "Contents": "Nitrogen 2%, Phosphorus 1%, Potassium 1%",
+      "Disadvantages": "Slower nutrient release",
+      "FertilizationID": 1,
+      "Frequency": "Every 3 months",
+      "SoilRequirementID": 1,
+      "Types": "Organic Fertilizer"
+    },
+    {
+      "Advantages": "Immediate nutrient availability",
+      "ApplicationMethods": "Machine Application",
+      "Contents": "Nitrogen 15%, Phosphorus 10%, Potassium 10%",
+      "Disadvantages": "Can lead to soil degradation",
+      "FertilizationID": 2,
+      "Frequency": "Every 6 months",
+      "SoilRequirementID": 2,
+      "Types": "Inorganic Fertilizer"
+    }
+  ],
+  "governmentpolicies": [
+    {
+      "GovernmentPolicyID": 1,
+      "Loans": 1,
+      "MachineUse": 1,
+      "PolicyID": 1,
+      "Taxes": 1,
+      "Trainings": 1
+    },
+    {
+      "GovernmentPolicyID": 2,
+      "Loans": 1,
+      "MachineUse": 0,
+      "PolicyID": 2,
+      "Taxes": 0,
+      "Trainings": 1
+    }
+  ],
+  "growthstages": [
+    {
+      "GrowthStageID": 1,
+      "Stage": "Germination",
+      "Time": 4
+    },
+    {
+      "GrowthStageID": 2,
+      "Stage": "Seedling",
+      "Time": 12
+    },
+    {
+      "GrowthStageID": 3,
+      "Stage": "Vegetative Growth",
+      "Time": 24
+    },
+    {
+      "GrowthStageID": 4,
+      "Stage": "Flowering",
+      "Time": 8
+    },
+    {
+      "GrowthStageID": 5,
+      "Stage": "Berry Formation",
+      "Time": 12
+    },
+    {
+      "GrowthStageID": 6,
+      "Stage": "Maturation",
+      "Time": 12
+    }
+  ],
+  "harvestingmethods": [
+    {
+      "HarvestingMethodID": 1,
+      "Method": "Hand Picking",
+      "StorageID": 1
+    },
+    {
+      "HarvestingMethodID": 2,
+      "Method": "Machine Harvesting",
+      "StorageID": 2
+    }
+  ],
+  "pestcontrolmethods": [],
+  "pests": [
+    {
+      "Description": "Coffee Berry Borer",
+      "DiseasesCaused": "Unknown",
+      "PartAffected": "Coffee berries",
+      "PestID": 1
+    },
+    {
+      "Description": "Coffee Leaf Rust",
+      "DiseasesCaused": "Rust Fungus",
+      "PartAffected": "Leaves",
+      "PestID": 2
+    },
+    {
+      "Description": "Antestia Bug",
+      "DiseasesCaused": "Unknown",
+      "PartAffected": "Berries and leaves",
+      "PestID": 3
+    }
+  ],
+  "plantingmethods": [
+    {
+      "Advantages": "Protects from pests",
+      "Disadvantages": "Requires additional trees",
+      "HowItsDone": "Coffee plants are grown under a canopy of shade trees.",
+      "Method": "Shade Grown",
+      "PlantingMethodID": 1,
+      "SoilRequirementID": 1
+    },
+    {
+      "Advantages": "Maximizes land use",
+      "Disadvantages": "Requires careful management",
+      "HowItsDone": "Coffee is grown alongside other crops such as bananas or beans.",
+      "Method": "Intercropping",
+      "PlantingMethodID": 2,
+      "SoilRequirementID": 2
+    },
+    {
+      "Advantages": "Higher market value",
+      "Disadvantages": "Lower yields",
+      "HowItsDone": "Uses organic fertilizers and pest control methods.",
+      "Method": "Organic Planting",
+      "PlantingMethodID": 3,
+      "SoilRequirementID": 3
+    }
+  ],
+  "policies": [
+    {
+      "Details": "Support for coffee farmers through subsidies.",
+      "PolicyID": 1,
+      "Type": "Government"
+    },
+    {
+      "Details": "Training programs for sustainable farming.",
+      "PolicyID": 2,
+      "Type": "NGO"
+    }
+  ],
+  "soilrequirements": [
+    {
+      "NutrientRequirements": "Nitrogen, Phosphorus, Potassium",
+      "PH": "6.00",
+      "SoilRequirementID": 1,
+      "SoilType": "Volcanic Soil",
+      "SuitableVariety": "Arabica"
+    },
+    {
+      "NutrientRequirements": "Nitrogen, Phosphorus, Potassium",
+      "PH": "6.50",
+      "SoilRequirementID": 2,
+      "SoilType": "Loamy Soil",
+      "SuitableVariety": "Robusta"
+    },
+    {
+      "NutrientRequirements": "Nitrogen, Phosphorus, Potassium",
+      "PH": "5.50",
+      "SoilRequirementID": 3,
+      "SoilType": "Sandy Loam",
+      "SuitableVariety": "Elgon Blue"
+    }
+  ],
+  "storage": [
+    {
+      "Duration": 6,
+      "Method": "Sun Drying",
+      "StorageID": 1
+    },
+    {
+      "Duration": 12,
+      "Method": "Mechanical Drying",
+      "StorageID": 2
+    }
+  ],
+  "varieties": [
+    {
+      "Description": "Arabica coffee is known for its smooth, complex flavor and is grown at higher altitudes.",
+      "Name": "Arabica",
+      "PeriodOfGrowth": 6,
+      "VarietyID": 1
+    },
+    {
+      "Description": "Robusta coffee is hardier and has a stronger, more bitter flavor compared to Arabica.",
+      "Name": "Robusta",
+      "PeriodOfGrowth": 9,
+      "VarietyID": 2
+    },
+    {
+      "Description": "Elgon Blue is a high-quality Arabica variety grown in the Mount Elgon region.",
+      "Name": "Elgon Blue",
+      "PeriodOfGrowth": 6,
+      "VarietyID": 3
+    },
+    {
+      "Description": "Nganda is a type of Robusta coffee known for its resistance to diseases.",
+      "Name": "Nganda",
+      "PeriodOfGrowth": 9,
+      "VarietyID": 4
+    },
+    {
+      "Description": "Erecta is another variety of Robusta with good yield and pest resistance.",
+      "Name": "Erecta",
+      "PeriodOfGrowth": 9,
+      "VarietyID": 5
+    }
+  ]
+}
